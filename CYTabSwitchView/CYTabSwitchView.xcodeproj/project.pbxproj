@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416CD7BE228AA19700F5822F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CD7BD228AA19700F5822F /* AppDelegate.m */; };
+		416CD7C1228AA19700F5822F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CD7C0228AA19700F5822F /* ViewController.m */; };
+		416CD7C4228AA19700F5822F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416CD7C2228AA19700F5822F /* Main.storyboard */; };
+		416CD7C6228AA19900F5822F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416CD7C5228AA19900F5822F /* Assets.xcassets */; };
+		416CD7C9228AA19900F5822F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416CD7C7228AA19900F5822F /* LaunchScreen.storyboard */; };
+		416CD7CC228AA19900F5822F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CD7CB228AA19900F5822F /* main.m */; };
+		416CD7D6228AA19900F5822F /* CYTabSwitchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CD7D5228AA19900F5822F /* CYTabSwitchViewTests.m */; };
+		416CD7E1228AA19A00F5822F /* CYTabSwitchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CD7E0228AA19A00F5822F /* CYTabSwitchViewUITests.m */; };
+		416CD7F1228AA1D000F5822F /* CYTabSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CD7F0228AA1CF00F5822F /* CYTabSwitchView.m */; };
+		416CD7F4228AA1EC00F5822F /* CYTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CD7F3228AA1EC00F5822F /* CYTabButton.m */; };
+		51A6D075F46B38B08639F00D /* libPods-CYTabSwitchViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D16ECA93B052A270B308C6 /* libPods-CYTabSwitchViewTests.a */; };
+		9E6921A7CA12C37400B22E82 /* libPods-CYTabSwitchViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4028D1659D7F5E39FCD3B890 /* libPods-CYTabSwitchViewUITests.a */; };
+		FD420475954667EB69D1B2B6 /* libPods-CYTabSwitchView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC72653EF2C78429F4F92D33 /* libPods-CYTabSwitchView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416CD7D2228AA19900F5822F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416CD7B1228AA19700F5822F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416CD7B8228AA19700F5822F;
+			remoteInfo = CYTabSwitchView;
+		};
+		416CD7DD228AA19A00F5822F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416CD7B1228AA19700F5822F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416CD7B8228AA19700F5822F;
+			remoteInfo = CYTabSwitchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07351450FD87AC5B64EEE3F6 /* Pods-CYTabSwitchView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTabSwitchView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYTabSwitchView/Pods-CYTabSwitchView.debug.xcconfig"; sourceTree = "<group>"; };
+		2EBC5E83661EDE4EB4EDDCEB /* Pods-CYTabSwitchViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTabSwitchViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYTabSwitchViewUITests/Pods-CYTabSwitchViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4028D1659D7F5E39FCD3B890 /* libPods-CYTabSwitchViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYTabSwitchViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CD7B9228AA19700F5822F /* CYTabSwitchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYTabSwitchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CD7BC228AA19700F5822F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		416CD7BD228AA19700F5822F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		416CD7BF228AA19700F5822F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		416CD7C0228AA19700F5822F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		416CD7C3228AA19700F5822F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		416CD7C5228AA19900F5822F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416CD7C8228AA19900F5822F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		416CD7CA228AA19900F5822F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416CD7CB228AA19900F5822F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416CD7D1228AA19900F5822F /* CYTabSwitchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYTabSwitchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CD7D5228AA19900F5822F /* CYTabSwitchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTabSwitchViewTests.m; sourceTree = "<group>"; };
+		416CD7D7228AA19A00F5822F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416CD7DC228AA19A00F5822F /* CYTabSwitchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYTabSwitchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CD7E0228AA19A00F5822F /* CYTabSwitchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTabSwitchViewUITests.m; sourceTree = "<group>"; };
+		416CD7E2228AA19A00F5822F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416CD7EF228AA1CF00F5822F /* CYTabSwitchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYTabSwitchView.h; sourceTree = "<group>"; };
+		416CD7F0228AA1CF00F5822F /* CYTabSwitchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTabSwitchView.m; sourceTree = "<group>"; };
+		416CD7F2228AA1EC00F5822F /* CYTabButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYTabButton.h; sourceTree = "<group>"; };
+		416CD7F3228AA1EC00F5822F /* CYTabButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTabButton.m; sourceTree = "<group>"; };
+		68CC9465DD9FFD67812F7A7E /* Pods-CYTabSwitchViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTabSwitchViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYTabSwitchViewTests/Pods-CYTabSwitchViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83D00B03C44D6F74F9E494AF /* Pods-CYTabSwitchView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTabSwitchView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYTabSwitchView/Pods-CYTabSwitchView.release.xcconfig"; sourceTree = "<group>"; };
+		8EE3F2D8644634BF7EB17562 /* Pods-CYTabSwitchViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTabSwitchViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYTabSwitchViewUITests/Pods-CYTabSwitchViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8D16ECA93B052A270B308C6 /* libPods-CYTabSwitchViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYTabSwitchViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97243CD0BE04E51A4FA5979 /* Pods-CYTabSwitchViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTabSwitchViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYTabSwitchViewTests/Pods-CYTabSwitchViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC72653EF2C78429F4F92D33 /* libPods-CYTabSwitchView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYTabSwitchView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416CD7B6228AA19700F5822F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD420475954667EB69D1B2B6 /* libPods-CYTabSwitchView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CD7CE228AA19900F5822F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A6D075F46B38B08639F00D /* libPods-CYTabSwitchViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CD7D9228AA19A00F5822F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6921A7CA12C37400B22E82 /* libPods-CYTabSwitchViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416CD7B0228AA19700F5822F = {
+			isa = PBXGroup;
+			children = (
+				416CD7BB228AA19700F5822F /* CYTabSwitchView */,
+				416CD7D4228AA19900F5822F /* CYTabSwitchViewTests */,
+				416CD7DF228AA19A00F5822F /* CYTabSwitchViewUITests */,
+				416CD7BA228AA19700F5822F /* Products */,
+				EC47942215B3302A18FB847A /* Pods */,
+				7606C798FA8A5A7D108FE781 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		416CD7BA228AA19700F5822F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416CD7B9228AA19700F5822F /* CYTabSwitchView.app */,
+				416CD7D1228AA19900F5822F /* CYTabSwitchViewTests.xctest */,
+				416CD7DC228AA19A00F5822F /* CYTabSwitchViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416CD7BB228AA19700F5822F /* CYTabSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				416CD7EE228AA1A400F5822F /* CYTabSwitchView */,
+				416CD7BC228AA19700F5822F /* AppDelegate.h */,
+				416CD7BD228AA19700F5822F /* AppDelegate.m */,
+				416CD7BF228AA19700F5822F /* ViewController.h */,
+				416CD7C0228AA19700F5822F /* ViewController.m */,
+				416CD7C2228AA19700F5822F /* Main.storyboard */,
+				416CD7C5228AA19900F5822F /* Assets.xcassets */,
+				416CD7C7228AA19900F5822F /* LaunchScreen.storyboard */,
+				416CD7CA228AA19900F5822F /* Info.plist */,
+				416CD7CB228AA19900F5822F /* main.m */,
+			);
+			path = CYTabSwitchView;
+			sourceTree = "<group>";
+		};
+		416CD7D4228AA19900F5822F /* CYTabSwitchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				416CD7D5228AA19900F5822F /* CYTabSwitchViewTests.m */,
+				416CD7D7228AA19A00F5822F /* Info.plist */,
+			);
+			path = CYTabSwitchViewTests;
+			sourceTree = "<group>";
+		};
+		416CD7DF228AA19A00F5822F /* CYTabSwitchViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				416CD7E0228AA19A00F5822F /* CYTabSwitchViewUITests.m */,
+				416CD7E2228AA19A00F5822F /* Info.plist */,
+			);
+			path = CYTabSwitchViewUITests;
+			sourceTree = "<group>";
+		};
+		416CD7EE228AA1A400F5822F /* CYTabSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				416CD7EF228AA1CF00F5822F /* CYTabSwitchView.h */,
+				416CD7F0228AA1CF00F5822F /* CYTabSwitchView.m */,
+				416CD7F2228AA1EC00F5822F /* CYTabButton.h */,
+				416CD7F3228AA1EC00F5822F /* CYTabButton.m */,
+			);
+			path = CYTabSwitchView;
+			sourceTree = "<group>";
+		};
+		7606C798FA8A5A7D108FE781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC72653EF2C78429F4F92D33 /* libPods-CYTabSwitchView.a */,
+				A8D16ECA93B052A270B308C6 /* libPods-CYTabSwitchViewTests.a */,
+				4028D1659D7F5E39FCD3B890 /* libPods-CYTabSwitchViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC47942215B3302A18FB847A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07351450FD87AC5B64EEE3F6 /* Pods-CYTabSwitchView.debug.xcconfig */,
+				83D00B03C44D6F74F9E494AF /* Pods-CYTabSwitchView.release.xcconfig */,
+				68CC9465DD9FFD67812F7A7E /* Pods-CYTabSwitchViewTests.debug.xcconfig */,
+				A97243CD0BE04E51A4FA5979 /* Pods-CYTabSwitchViewTests.release.xcconfig */,
+				2EBC5E83661EDE4EB4EDDCEB /* Pods-CYTabSwitchViewUITests.debug.xcconfig */,
+				8EE3F2D8644634BF7EB17562 /* Pods-CYTabSwitchViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416CD7B8228AA19700F5822F /* CYTabSwitchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416CD7E5228AA19A00F5822F /* Build configuration list for PBXNativeTarget "CYTabSwitchView" */;
+			buildPhases = (
+				3430510062ECAD39D4A614CE /* [CP] Check Pods Manifest.lock */,
+				416CD7B5228AA19700F5822F /* Sources */,
+				416CD7B6228AA19700F5822F /* Frameworks */,
+				416CD7B7228AA19700F5822F /* Resources */,
+				C33DAE6F8A7BE314E571AF9C /* [CP] Embed Pods Frameworks */,
+				0FE6058C3990F577F9511FE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYTabSwitchView;
+			productName = CYTabSwitchView;
+			productReference = 416CD7B9228AA19700F5822F /* CYTabSwitchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416CD7D0228AA19900F5822F /* CYTabSwitchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416CD7E8228AA19A00F5822F /* Build configuration list for PBXNativeTarget "CYTabSwitchViewTests" */;
+			buildPhases = (
+				C9BD5016520563F109454D59 /* [CP] Check Pods Manifest.lock */,
+				416CD7CD228AA19900F5822F /* Sources */,
+				416CD7CE228AA19900F5822F /* Frameworks */,
+				416CD7CF228AA19900F5822F /* Resources */,
+				15948FE883ECBE474C1BE04B /* [CP] Embed Pods Frameworks */,
+				D26B335FF1ACC5A1668B042F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416CD7D3228AA19900F5822F /* PBXTargetDependency */,
+			);
+			name = CYTabSwitchViewTests;
+			productName = CYTabSwitchViewTests;
+			productReference = 416CD7D1228AA19900F5822F /* CYTabSwitchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		416CD7DB228AA19A00F5822F /* CYTabSwitchViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416CD7EB228AA19A00F5822F /* Build configuration list for PBXNativeTarget "CYTabSwitchViewUITests" */;
+			buildPhases = (
+				C98319E18093BC67733B6F58 /* [CP] Check Pods Manifest.lock */,
+				416CD7D8228AA19A00F5822F /* Sources */,
+				416CD7D9228AA19A00F5822F /* Frameworks */,
+				416CD7DA228AA19A00F5822F /* Resources */,
+				F7D67E997B3D7AEC585C4A21 /* [CP] Embed Pods Frameworks */,
+				7E561419248B104226675230 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416CD7DE228AA19A00F5822F /* PBXTargetDependency */,
+			);
+			name = CYTabSwitchViewUITests;
+			productName = CYTabSwitchViewUITests;
+			productReference = 416CD7DC228AA19A00F5822F /* CYTabSwitchViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416CD7B1228AA19700F5822F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mr.GCY;
+				TargetAttributes = {
+					416CD7B8228AA19700F5822F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					416CD7D0228AA19900F5822F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 416CD7B8228AA19700F5822F;
+					};
+					416CD7DB228AA19A00F5822F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 416CD7B8228AA19700F5822F;
+					};
+				};
+			};
+			buildConfigurationList = 416CD7B4228AA19700F5822F /* Build configuration list for PBXProject "CYTabSwitchView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416CD7B0228AA19700F5822F;
+			productRefGroup = 416CD7BA228AA19700F5822F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416CD7B8228AA19700F5822F /* CYTabSwitchView */,
+				416CD7D0228AA19900F5822F /* CYTabSwitchViewTests */,
+				416CD7DB228AA19A00F5822F /* CYTabSwitchViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416CD7B7228AA19700F5822F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CD7C9228AA19900F5822F /* LaunchScreen.storyboard in Resources */,
+				416CD7C6228AA19900F5822F /* Assets.xcassets in Resources */,
+				416CD7C4228AA19700F5822F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CD7CF228AA19900F5822F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CD7DA228AA19A00F5822F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE6058C3990F577F9511FE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYTabSwitchView/Pods-CYTabSwitchView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15948FE883ECBE474C1BE04B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYTabSwitchViewTests/Pods-CYTabSwitchViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3430510062ECAD39D4A614CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYTabSwitchView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E561419248B104226675230 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYTabSwitchViewUITests/Pods-CYTabSwitchViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33DAE6F8A7BE314E571AF9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYTabSwitchView/Pods-CYTabSwitchView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C98319E18093BC67733B6F58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYTabSwitchViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BD5016520563F109454D59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYTabSwitchViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26B335FF1ACC5A1668B042F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYTabSwitchViewTests/Pods-CYTabSwitchViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D67E997B3D7AEC585C4A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYTabSwitchViewUITests/Pods-CYTabSwitchViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416CD7B5228AA19700F5822F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CD7F1228AA1D000F5822F /* CYTabSwitchView.m in Sources */,
+				416CD7C1228AA19700F5822F /* ViewController.m in Sources */,
+				416CD7CC228AA19900F5822F /* main.m in Sources */,
+				416CD7F4228AA1EC00F5822F /* CYTabButton.m in Sources */,
+				416CD7BE228AA19700F5822F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CD7CD228AA19900F5822F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CD7D6228AA19900F5822F /* CYTabSwitchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CD7D8228AA19A00F5822F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CD7E1228AA19A00F5822F /* CYTabSwitchViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416CD7D3228AA19900F5822F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416CD7B8228AA19700F5822F /* CYTabSwitchView */;
+			targetProxy = 416CD7D2228AA19900F5822F /* PBXContainerItemProxy */;
+		};
+		416CD7DE228AA19A00F5822F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416CD7B8228AA19700F5822F /* CYTabSwitchView */;
+			targetProxy = 416CD7DD228AA19A00F5822F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416CD7C2228AA19700F5822F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CD7C3228AA19700F5822F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		416CD7C7228AA19900F5822F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CD7C8228AA19900F5822F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416CD7E3228AA19A00F5822F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		416CD7E4228AA19A00F5822F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416CD7E6228AA19A00F5822F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07351450FD87AC5B64EEE3F6 /* Pods-CYTabSwitchView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.gcy.CYTabSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416CD7E7228AA19A00F5822F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D00B03C44D6F74F9E494AF /* Pods-CYTabSwitchView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.gcy.CYTabSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		416CD7E9228AA19A00F5822F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CC9465DD9FFD67812F7A7E /* Pods-CYTabSwitchViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabSwitchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.gcy.CYTabSwitchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYTabSwitchView.app/CYTabSwitchView";
+			};
+			name = Debug;
+		};
+		416CD7EA228AA19A00F5822F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97243CD0BE04E51A4FA5979 /* Pods-CYTabSwitchViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabSwitchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.gcy.CYTabSwitchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYTabSwitchView.app/CYTabSwitchView";
+			};
+			name = Release;
+		};
+		416CD7EC228AA19A00F5822F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBC5E83661EDE4EB4EDDCEB /* Pods-CYTabSwitchViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabSwitchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.gcy.CYTabSwitchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYTabSwitchView;
+			};
+			name = Debug;
+		};
+		416CD7ED228AA19A00F5822F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE3F2D8644634BF7EB17562 /* Pods-CYTabSwitchViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYTabSwitchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.gcy.CYTabSwitchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYTabSwitchView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416CD7B4228AA19700F5822F /* Build configuration list for PBXProject "CYTabSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CD7E3228AA19A00F5822F /* Debug */,
+				416CD7E4228AA19A00F5822F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416CD7E5228AA19A00F5822F /* Build configuration list for PBXNativeTarget "CYTabSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CD7E6228AA19A00F5822F /* Debug */,
+				416CD7E7228AA19A00F5822F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416CD7E8228AA19A00F5822F /* Build configuration list for PBXNativeTarget "CYTabSwitchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CD7E9228AA19A00F5822F /* Debug */,
+				416CD7EA228AA19A00F5822F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416CD7EB228AA19A00F5822F /* Build configuration list for PBXNativeTarget "CYTabSwitchViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CD7EC228AA19A00F5822F /* Debug */,
+				416CD7ED228AA19A00F5822F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416CD7B1228AA19700F5822F /* Project object */;
+}
