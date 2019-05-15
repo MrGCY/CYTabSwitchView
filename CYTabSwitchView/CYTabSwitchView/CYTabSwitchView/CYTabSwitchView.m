@@ -148,6 +148,13 @@
      CYTabButton * currentBtn = self.tabButtonsArray[index];
      [currentBtn setBadge:badge];
 }
+- (NSInteger)getBadgeWithIndex:(NSInteger)index{
+     if (index >= self.tabButtonsArray.count) {
+          return 0;
+     }
+     CYTabButton * currentBtn = self.tabButtonsArray[index];
+     return [currentBtn getBadge];
+}
 /**
  @param index item下标 0开始
  */

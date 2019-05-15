@@ -26,6 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
  @param badge 角标数量
  */
 - (void)setBadge:(NSInteger)badge;
+/**
+ @param 获取角标数量
+ */
+- (NSInteger)getBadge;
 //获取按钮文字大小
 -(CGSize)textSizeWithText:(NSString *)text font:(UIFont *)font;
 @end

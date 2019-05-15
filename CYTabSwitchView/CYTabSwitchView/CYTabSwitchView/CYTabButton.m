@@ -76,6 +76,12 @@
           self.tipLabel.text = @"";
      }
 }
+/**
+ @param 获取角标数量
+ */
+- (NSInteger)getBadge{
+     return self.tipNum;
+}
 #pragma mark- private methods
 -(void)updateTabImage:(UIImage *)tabImage height:(CGFloat)height bottom:(CGFloat)bottom{
      self.tabTitleImageView.image = tabImage;

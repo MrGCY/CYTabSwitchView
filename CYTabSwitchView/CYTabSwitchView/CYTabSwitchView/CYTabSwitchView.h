@@ -36,6 +36,7 @@ typedef void (^TabSelectBlock)(NSInteger);
  @param badge 角标数量
  */
 - (void)setBadgeWithIndex:(NSInteger)index  badge:(NSInteger)badge;
+- (NSInteger)getBadgeWithIndex:(NSInteger)index;
 /**
  设置默认选择的索引
  */
